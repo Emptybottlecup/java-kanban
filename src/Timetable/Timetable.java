@@ -24,10 +24,9 @@ public class Timetable {
 
     public void addNewTrainingSession(TrainingSession trainingSession) {
 
-        String fullNameOfCoach = trainingSession.getCoach().getSurname() + ' ' + trainingSession.getCoach().getName()
-                + ' ' + trainingSession.getCoach().getMiddleName();
+        String fullNameOfCoach = trainingSession.getCoach().getSurname() + ' ' + trainingSession.getCoach().getName() + ' ' + trainingSession.getCoach().getMiddleName();
 
-        coachesAndTraineeCount.put(fullNameOfCoach, coachesAndTraineeCount.getOrDefault(fullNameOfCoach,0) + 1);
+        coachesAndTraineeCount.put(fullNameOfCoach, coachesAndTraineeCount.getOrDefault(fullNameOfCoach, 0) + 1);
 
         TreeMap<TimeOfDay, ArrayList<TrainingSession>> dayOfNewTrainingSession = timetable.get(trainingSession.getDayOfWeek());
 
@@ -54,7 +53,7 @@ public class Timetable {
         return timetable.get(dayOfWeek).get(timeOfDay);
     }
 
-    public ArrayList<TrainerAndHisTraineeAtWeek> getCountByCoaches () {
+    public ArrayList<TrainerAndHisTraineeAtWeek> getCountByCoaches() {
         ArrayList<TrainerAndHisTraineeAtWeek> trainersAndTheirsTraineesAtWeek = new ArrayList<>();
 
         for (Map.Entry<String, Integer> entry : coachesAndTraineeCount.entrySet()) {
