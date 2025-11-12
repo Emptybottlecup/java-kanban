@@ -1,7 +1,5 @@
 package Timetable.Components;
 
-import java.util.Objects;
-
 public class Coach {
     //фамилия
     private final String surname;
