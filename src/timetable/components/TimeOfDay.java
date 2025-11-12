@@ -1,4 +1,4 @@
-package Timetable.Components;
+package timetable.components;
 
 public class TimeOfDay implements Comparable<TimeOfDay> {
     //часы (от 0 до 23)

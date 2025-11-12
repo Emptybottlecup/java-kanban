@@ -1,6 +1,6 @@
-import Timetable.enums.*;
-import Timetable.Components.*;
-import Timetable.*;
+import timetable.enums.*;
+import timetable.components.*;
+import timetable.*;
 import java.util.Map;
 
 import org.junit.Assert;

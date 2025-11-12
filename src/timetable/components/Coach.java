@@ -1,4 +1,4 @@
-package Timetable.Components;
+package timetable.components;
 
 public class Coach {
     //фамилия

@@ -1,9 +1,9 @@
-package Timetable;
+package timetable;
 
-import Timetable.Components.TimeOfDay;
-import Timetable.Components.TrainingSession;
-import Timetable.enums.DayOfWeek;
-import Timetable.Components.TrainerAndHisTraineeAtWeek;
+import timetable.components.TimeOfDay;
+import timetable.components.TrainingSession;
+import timetable.enums.DayOfWeek;
+import timetable.components.TrainerAndHisTraineeAtWeek;
 
 import java.util.Map;
 import java.util.ArrayList;

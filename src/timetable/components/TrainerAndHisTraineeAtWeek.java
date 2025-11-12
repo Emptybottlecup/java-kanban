@@ -1,4 +1,4 @@
-package Timetable.Components;
+package timetable.components;
 
 public class TrainerAndHisTraineeAtWeek implements Comparable<TrainerAndHisTraineeAtWeek> {
     private final String fullName;

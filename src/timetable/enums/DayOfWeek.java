@@ -1,4 +1,4 @@
-package Timetable.enums;
+package timetable.enums;
 
 public enum DayOfWeek {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY

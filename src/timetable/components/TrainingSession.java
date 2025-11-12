@@ -1,6 +1,6 @@
-package Timetable.Components;
+package timetable.components;
 
-import Timetable.enums.DayOfWeek;
+import timetable.enums.DayOfWeek;
 
 public class TrainingSession {
     //группа

@@ -1,6 +1,6 @@
-package Timetable.Components;
+package timetable.components;
 
-import Timetable.enums.Age;
+import timetable.enums.Age;
 
 public class Group {
     //название группы
