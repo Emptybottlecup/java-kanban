@@ -13,9 +13,9 @@ import java.util.Collections;
 
 public class Timetable {
 
-    private HashMap<DayOfWeek, TreeMap<TimeOfDay, ArrayList<TrainingSession>>> timetable;
+    private final HashMap<DayOfWeek, TreeMap<TimeOfDay, ArrayList<TrainingSession>>> timetable;
 
-    private HashMap<String, Integer> coachesAndTraineeCount;
+    private Map<String, Integer> coachesAndTraineeCount;
 
     public Timetable() {
         timetable = new HashMap<>();
